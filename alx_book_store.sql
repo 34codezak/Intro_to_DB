@@ -21,7 +21,7 @@ CREATE TABLE Customers (
     address TEXT NOT NULL
 );
 
-CRRATE TABLE Orders (
+CREATE TABLE Orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_id INT,
     order_date DATE NOT NULL,
